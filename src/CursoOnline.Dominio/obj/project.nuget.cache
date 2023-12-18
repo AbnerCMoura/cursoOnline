@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fH2M4V+ZKIDkDInS2+uKGrJMNAkJWhcrT3aOR0XPXlPCfv6LEetiG0vgo3aj+hPzczqnGbB6A97wUIYoELvlmw==",
+  "dgSpecHash": "jd854KkQUFYJzrZWsJFUy7/Q+tMINKypfPPcPZvyx2KYZH6jh/bkiEEcbo2Q8wwW5Jhy7fUiLN2Zv0GWpVemFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\125257\\source\\repos\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Abner\\RiderProjects\\cursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Abner\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Abner\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Abner\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
