@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\CursoOnline.Dominio.deps.json" />
+    <Content Include="bin\Debug\net6.0\CursoOnline.Dominio.dll" />
+    <Content Include="bin\Debug\net6.0\CursoOnline.Dominio.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
 </Project>

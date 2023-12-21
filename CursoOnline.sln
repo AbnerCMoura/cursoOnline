@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoOnline.DominioTest", "test\CursoOnline.DominioTest\CursoOnline.DominioTest.csproj", "{5E6DECCB-BF41-4BE6-A5F4-9EBB07159E92}"
+	ProjectSection(ProjectDependencies) = postProject
+		{81880A73-00E1-4863-BF2E-88E1473F0CFB} = {81880A73-00E1-4863-BF2E-88E1473F0CFB}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoOnline.Dominio", "src\CursoOnline.Dominio\CursoOnline.Dominio.csproj", "{81880A73-00E1-4863-BF2E-88E1473F0CFB}"
 EndProject
