@@ -1,9 +1,9 @@
 ﻿using Bogus;
+using Xunit;
+using Xunit.Abstractions;
 using CursoOnline.Dominio.Cursos;
 using CursoOnline.DominioTest._Builders;
 using ExpectedObjects;
-using Xunit;
-using Xunit.Abstractions;
 
 namespace CursoOnline.DominioTest.Cursos
 {

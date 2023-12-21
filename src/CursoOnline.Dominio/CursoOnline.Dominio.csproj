@@ -14,5 +14,14 @@
 
   <ItemGroup>
     <Compile Remove="Class1.cs" />
+    <Compile Remove="Dominio\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Dominio\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Dominio\**" />
   </ItemGroup>
 </Project>
