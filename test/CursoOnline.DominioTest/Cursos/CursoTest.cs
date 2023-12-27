@@ -19,13 +19,13 @@ namespace CursoOnline.DominioTest.Cursos
         public CursoTest(ITestOutputHelper output)
         {
             _output = output;
-            var faker = new Faker();
+            var fake = new Faker();
             
-            _nome = faker.Random.Word();
-            _descricao = faker.Random.Words();
-            _cargaHoraria = faker.Random.Double(50, 1000);
+            _nome = fake.Random.Word();
+            _descricao = fake.Random.Words();
+            _cargaHoraria = fake.Random.Double(50, 1000);
             _publicoAlvo = PublicoAlvo.Estudante;
-            _valor = faker.Random.Double(100, 1000);
+            _valor = fake.Random.Double(100, 1000);
         }
 
 
