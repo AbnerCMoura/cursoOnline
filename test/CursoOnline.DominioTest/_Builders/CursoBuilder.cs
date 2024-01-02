@@ -10,6 +10,11 @@ public class CursoBuilder
     private PublicoAlvo _publicoAlvo = PublicoAlvo.Estudante;
     private double _valor = 950;
 
+    public static CursoBuilder Novo()
+    {
+        return new CursoBuilder();
+    }
+
     public CursoBuilder ComNome(string nome)
     {
         _nome = nome;
